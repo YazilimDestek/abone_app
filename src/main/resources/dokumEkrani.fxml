@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="717.0" prefWidth="900.0" styleClass="background" stylesheets="@app.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tr.com.cinigaz.controller.DokumController">
+
+    <Pane fx:id="paneDiger" layoutX="8.0" layoutY="15.0" opacity="0.94" prefHeight="662.0" prefWidth="275.0">
+        <children>
+            <Label alignment="CENTER" layoutX="32.0" layoutY="3.0" prefHeight="50.0" prefWidth="211.0" text="GAZ FATURASI" />
+            <ImageView fx:id="imgAltLogo" fitHeight="63.0" fitWidth="242.0" layoutX="12.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@logo_top.png" />
+                </image>
+                <viewport>
+                    <Rectangle2D height="50.0" minX="1.0" minY="1.0" />
+                </viewport>
+            </ImageView>
+            <TextField fx:id="ftextfield" accessibleRole="TEXT_AREA" alignment="TOP_LEFT" layoutX="10.0" layoutY="54.0" prefHeight="305.0" prefWidth="249.0" styleClass="label-bright" text="fgdfgdfgdfg" translateX="4.0">
+                <cursor>
+                    <Cursor fx:constant="H_RESIZE" />
+                </cursor>
+                <padding>
+                    <Insets top="20.0" />
+                </padding></TextField>
+         <ImageView fx:id="imgQR" fitHeight="104.0" fitWidth="149.0" layoutX="59.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@cini1.jpg" />
+            </image>
+            <viewport>
+               <Rectangle2D height="80.0" width="100.0" />
+            </viewport>
+         </ImageView>
+        </children>
+      <styleClass>
+         <String fx:value="background" />
+         <String fx:value="button1" />
+      </styleClass>
+    </Pane>
+   <Pane fx:id="paneAdilFatura" layoutX="293.0" layoutY="15.0" opacity="0.94" prefHeight="662.0" prefWidth="275.0">
+      <children>
+         <Label alignment="CENTER" layoutX="19.0" prefHeight="50.0" prefWidth="211.0" text="ADİL FATURA" />
+         <ImageView fx:id="imgAltLogo1" fitHeight="63.0" fitWidth="242.0" layoutX="12.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@logo_top.png" />
+            </image>
+            <viewport>
+               <Rectangle2D height="50.0" minX="1.0" minY="1.0" />
+            </viewport>
+         </ImageView>
+         <TextField fx:id="ftextfield1" accessibleRole="TEXT_AREA" alignment="TOP_LEFT" layoutX="10.0" layoutY="54.0" prefHeight="305.0" prefWidth="249.0" styleClass="label-bright" text="fgdfgdfgdfg" translateX="4.0">
+            <cursor>
+               <Cursor fx:constant="SW_RESIZE" />
+            </cursor>
+            <padding>
+               <Insets top="20.0" />
+            </padding>
+         </TextField>
+         <ImageView fx:id="imgQR1" fitHeight="104.0" fitWidth="149.0" layoutX="59.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@cini1.jpg" />
+            </image>
+            <viewport>
+               <Rectangle2D height="80.0" width="100.0" />
+            </viewport>
+         </ImageView>
+      </children>
+      <styleClass>
+         <String fx:value="background" />
+         <String fx:value="button1" />
+      </styleClass>
+   </Pane>
+   <Pane fx:id="paneMakbuz" layoutX="578.0" layoutY="15.0" opacity="0.94" prefHeight="662.0" prefWidth="275.0">
+      <children>
+         <Label alignment="CENTER" layoutX="7.0" prefHeight="50.0" prefWidth="238.0" text="MAKBUZ" />
+         <ImageView fx:id="imgAltLogo2" fitHeight="63.0" fitWidth="242.0" layoutX="12.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@logo_top.png" />
+            </image>
+            <viewport>
+               <Rectangle2D height="50.0" minX="1.0" minY="1.0" />
+            </viewport>
+         </ImageView>
+         <TextField fx:id="ftextfield2" accessibleRole="TEXT_AREA" alignment="TOP_LEFT" layoutX="10.0" layoutY="54.0" prefHeight="305.0" prefWidth="249.0" styleClass="label-bright" text="fgdfgdfgdfg" translateX="4.0">
+            <cursor>
+               <Cursor fx:constant="TEXT" />
+            </cursor>
+            <padding>
+               <Insets top="20.0" />
+            </padding>
+         </TextField>
+         <ImageView fx:id="imgQR2" fitHeight="104.0" fitWidth="149.0" layoutX="59.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@cini1.jpg" />
+            </image>
+            <viewport>
+               <Rectangle2D height="80.0" width="100.0" />
+            </viewport>
+         </ImageView>
+      </children>
+      <styleClass>
+         <String fx:value="background" />
+         <String fx:value="button1" />
+      </styleClass>
+   </Pane>
+
+
+
+
+
+
+
+</AnchorPane>
